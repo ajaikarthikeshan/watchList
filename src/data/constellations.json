@@ -1,0 +1,80 @@
+[
+  {
+    "id": "sci-fi",
+    "name": "Andromeda Drift",
+    "genreTags": ["Science Fiction", "Fantasy"],
+    "center": { "x": 600, "y": 480 },
+    "nodes": [
+      { "id": "sf-1", "x": -80, "y": -40 },
+      { "id": "sf-2", "x": -10, "y": -90 },
+      { "id": "sf-3", "x": 90, "y": -20 },
+      { "id": "sf-4", "x": 40, "y": 60 },
+      { "id": "sf-5", "x": -60, "y": 80 }
+    ],
+    "links": [
+      { "source": "sf-1", "target": "sf-2" },
+      { "source": "sf-2", "target": "sf-3" },
+      { "source": "sf-3", "target": "sf-4" },
+      { "source": "sf-4", "target": "sf-5" },
+      { "source": "sf-5", "target": "sf-1" }
+    ]
+  },
+  {
+    "id": "mystery",
+    "name": "Noir Vale",
+    "genreTags": ["Mystery", "Thriller", "Crime"],
+    "center": { "x": 1200, "y": 760 },
+    "nodes": [
+      { "id": "my-1", "x": -90, "y": -30 },
+      { "id": "my-2", "x": -20, "y": -80 },
+      { "id": "my-3", "x": 60, "y": -10 },
+      { "id": "my-4", "x": 80, "y": 70 },
+      { "id": "my-5", "x": -40, "y": 90 }
+    ],
+    "links": [
+      { "source": "my-1", "target": "my-2" },
+      { "source": "my-2", "target": "my-3" },
+      { "source": "my-3", "target": "my-4" },
+      { "source": "my-4", "target": "my-5" }
+    ]
+  },
+  {
+    "id": "drama",
+    "name": "Lyra Crest",
+    "genreTags": ["Drama", "Romance"],
+    "center": { "x": 880, "y": 1200 },
+    "nodes": [
+      { "id": "dr-1", "x": -70, "y": -60 },
+      { "id": "dr-2", "x": 10, "y": -90 },
+      { "id": "dr-3", "x": 90, "y": -20 },
+      { "id": "dr-4", "x": 40, "y": 70 },
+      { "id": "dr-5", "x": -60, "y": 80 }
+    ],
+    "links": [
+      { "source": "dr-1", "target": "dr-2" },
+      { "source": "dr-2", "target": "dr-3" },
+      { "source": "dr-3", "target": "dr-4" },
+      { "source": "dr-4", "target": "dr-5" },
+      { "source": "dr-1", "target": "dr-5" }
+    ]
+  },
+  {
+    "id": "action",
+    "name": "Orion Rush",
+    "genreTags": ["Action", "Adventure"],
+    "center": { "x": 320, "y": 980 },
+    "nodes": [
+      { "id": "ac-1", "x": -80, "y": -50 },
+      { "id": "ac-2", "x": 0, "y": -100 },
+      { "id": "ac-3", "x": 70, "y": -30 },
+      { "id": "ac-4", "x": 90, "y": 60 },
+      { "id": "ac-5", "x": -40, "y": 90 }
+    ],
+    "links": [
+      { "source": "ac-1", "target": "ac-2" },
+      { "source": "ac-2", "target": "ac-3" },
+      { "source": "ac-3", "target": "ac-4" },
+      { "source": "ac-4", "target": "ac-5" }
+    ]
+  }
+]
